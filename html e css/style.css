@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Story+Script&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* estilização do header */
+
+.header {
+    background-color: #243a69;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: "Story Script", sans-serif;
+    padding: 40px;
+    color: #d4cdc5;
+}
+
+.img-footer {
+    width: 250px;
+}
+
+.div-li {
+    list-style: none;
+}
+
+.div-li {
+    display: flex;
+    gap: 15px;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.div-li a {
+    text-decoration: none;
+    color: black;
+}
+/* FIM DO CABEÇALHO */
+
+
+/* section 1 */
+
+.section-01 {
+    background-color: #5b88a5;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 60px;
+}
+
+.section-01-img {
+    margin-top: 20px;
+    width: 400px;
+    border-radius: 10px;
+    margin-left: 20px;
+}
+
+span {
+    color: white;
+    font-family: "Story Script", sans-serif;
+}
+.section-01 p {
+    font-family: "Story Script", sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+/* FIM DA SECTION 1 */
+
+/* section 2  */
+
+.section-02 {
+    background-color: #5b88a5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: "Story Script", sans-serif;
+    padding: 100px;
+    gap: 20px;
+}
+
+.car {
+    display: flex;
+  font-size: 25px;
+}
+
+.section-02-p {
+    font-size: 30px;
+}
+
+
+/* SECTION 3 */
+
+.section-03 {
+    background-image: url(../imagens/red-mitsubishi-lancer-riding-4bufjias21qztppr.jpg);
+   padding: 200px;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-size: cover;
+   display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.button-section03 {
+width: 150px;
+padding: 7px;
+font-family: "Story Script", sans-serif;
+background-color: #f4f4f2;
+border: none;
+font-weight: 800;
+text-decoration: none;
+text-align: center;
+color: black;
+}
+/* fim da section 3 */
+
+
+
+/* inicio da section 4 */
+.section-04 {
+    background-color: #191013;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+    font-size: 20px;
+    text-align: center;
+    font-family: "Story Script", sans-serif;
+    padding: 80px;
+    color: black;
+}
+
+.fa-solid , .fa-star-half {
+margin-top: 10px;
+margin-bottom: 10px;
+font-size: 30px;
+}
+
+.div-04 {
+background-color: #d4cdc5;
+height: 350px;
+width: 350px;
+border-radius: 10px;
+}
+
+
+
+.gif-04 {
+    background-image: url(../imagens/Art\ Design\ GIF\ by\ dualvoidanima.gif);
+    padding: 200px;
+background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 10px;
+}
+
+/* fim da section 4 */
+
+footer {
+    background-color: #243a69;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-family: "Story Script", sans-serif;
+    padding: 80px;
+    flex-direction: column;
+    text-transform: uppercase;
+    color: white;
+    font-size: 20px;
+}
+
+.footer-p{
+    color: white;
+}
+
+.footer-img {
+width: 10x;
+}
