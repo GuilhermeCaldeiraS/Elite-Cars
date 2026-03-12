@@ -72,6 +72,26 @@ span {
     font-weight: 600;
 }
 
+.button-01 {
+    margin-top: 15px;
+    width: 150px;
+padding: 7px;
+font-family: "Story Script", sans-serif;
+background-color: #f4f4f2;
+border: none;
+font-weight: 800;
+text-decoration: none;
+text-align: center;
+color: black;
+}
+
+.ancora-01 {
+    text-decoration: none;
+    color: black;
+    font-weight: 800;
+    font-size: 17px;
+}
+
 /* FIM DA SECTION 1 */
 
 /* section 2  */
