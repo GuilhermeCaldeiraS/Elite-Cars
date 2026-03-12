@@ -82,6 +82,7 @@ font-size: 80px;
     background-size: cover;
     color: white;
     font-family: "Story Script", sans-serif;
+ background-attachment: fixed;
     font-size: 25px;
 }
 
