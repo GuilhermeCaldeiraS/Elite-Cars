@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Story+Script&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* estilização do header */
+
+.header {
+    background-color: #243a69;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: "Story Script", sans-serif;
+    padding: 40px;
+    color:white;
+}
+
+ .txtheader {
+font-size: 80px;
+ }
+
+
+.img-footer {
+    width: 250px;
+}
+
+.div-li {
+    list-style: none;
+}
+
+.div-li {
+    display: flex;
+    gap: 15px;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.div-li a {
+    text-decoration: none;
+    color: black;
+}
+/* FIM DO CABEÇALHO */
+
+
+/* começo da estilização do site */
+
+.section01 {
+    background-color: #5b88a5;
+    display: flex;
+    gap: 60px;
+    font-family: "Story Script", sans-serif;
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    padding: 40px;
+    
+}
+
+.img-section01 {
+    width: 500px;
+    margin-left: 15px;
+       border-radius: 10px;
+}
+
+
+/* fim da estilização da section 01 */
+
+
+/* incio da section 2 */
+
+.section02 {
+    padding: 150px;
+    background-image: url(../imagens/Mercedes\ Benz\ Cls\ GIF.gif);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    font-family: "Story Script", sans-serif;
+    font-size: 25px;
+}
+
+/* fim da section 02 */
+
+/* inicio da section 03 */
+
+.section03 {
+    background-color: #191013;
+padding: 150px;
+display: flex;
+color: white;
+ font-family: "Story Script", sans-serif;
+    font-size: 25px;
+    gap: 60px;
+    flex-direction: row-reverse;
+}
+
+.Audi {
+    width: 450px;
+    border-radius: 10px;
+}
+
+/* fim da section 03 */
+
+
+/* inicio footer */
+
+footer {
+    background-color: #243a69;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-family: "Story Script", sans-serif;
+    padding: 80px;
+    flex-direction: column;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.footer-p{
+    color: white;
+}
+
+.footer-img {
+width: 10x;
+}
+
+.fa-whatsapp, .fa-github , .fa-instagram {
+    color: white;
+}
+
+.iframe {
+    margin-left: 900px;
+}

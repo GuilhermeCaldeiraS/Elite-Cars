@@ -190,3 +190,7 @@ width: 10x;
 .fa-whatsapp, .fa-github , .fa-instagram {
     color: white;
 }
+
+.iframe {
+    margin-left: 900px;
+}
