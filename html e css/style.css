@@ -17,6 +17,11 @@
     color: #d4cdc5;
 }
 
+ .txtheader {
+font-size: 80px;
+ }
+
+
 .img-footer {
     width: 250px;
 }
@@ -82,9 +87,10 @@ span {
     gap: 20px;
 }
 
-.car {
+.logo-section02{
+    width: 450px;
     display: flex;
-  font-size: 25px;
+  
 }
 
 .section-02-p {
@@ -170,7 +176,6 @@ footer {
     padding: 80px;
     flex-direction: column;
     text-transform: uppercase;
-    color: white;
     font-size: 20px;
 }
 
@@ -180,4 +185,8 @@ footer {
 
 .footer-img {
 width: 10x;
+}
+
+.fa-whatsapp, .fa-github , .fa-instagram {
+    color: white;
 }

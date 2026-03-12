@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Story+Script&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* personalização do header da tela de cadastro */
+.header {
+    background-color: #243a69;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: "Story Script", sans-serif;
+    padding: 20px;
+    color: #d4cdc5;
+}
+
+/* personalização do nome principal */
+.txtheader {
+    font-size: 80px;
+}
+
+
+/* personalização da imgaem do header */
+.img-footer {
+    width: 250px;
+}
+
+/* listas */
+.div-li {
+    list-style: none;
+}
+
+.div-li {
+    display: flex;
+    gap: 15px;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.div-li a {
+    text-decoration: none;
+    color: black;
+}
+
+/* FIM DO CABEÇALHO */
+
+
+
+/* Personalização do Body/Corpo do Site */
+
+
+
+.section-01 {
+    background-color: #5b88a5;
+    font-family: "Story Script", sans-serif;
+   text-align: center;
+   
+}
+
+.h1-texto {
+    text-align: center;
+}
+
+.caixa {
+    text-align: center;
+    width: 350px;
+    height: auto;
+    background-color: #5b88a5;
+    padding: 40px 
+    
+}
+
+.texto-final {
+    display: flex;
+    text-align: center;
+}
+
+
+.texto-body {
+    background-color: #5b88a5;
+    display: flex;
+    text-align: center;
+    font-family: "Story Script", sans-serif;
+}
+
+
+/* inicio da personalização do footer */
+
+footer {
+    background-color: #243a69;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-family: "Story Script", sans-serif;
+    padding: 80px;
+    flex-direction: column;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.footer-p {
+    color: white;
+}
+
+.footer-img {
+    width: 10x;
+}
+
+.fa-whatsapp,
+.fa-github,
+.fa-instagram {
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.texto-body {
+    display: flex;
+    gap: 20px;
+    font-size: 20px;
+}
+
+
+.texto-body a {
+    text-decoration: none;
+    color: #d4cdc5;
+    font-size: 20px;
+}
