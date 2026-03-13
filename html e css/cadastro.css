@@ -118,8 +118,19 @@ main {
     text-align: center;
     margin-right: 15px;
     border-radius: 4px;
-    font-size: 15px;
 }
+
+.tem-uma-conta{
+   gap: 60px;
+    padding: 10px;
+    font-family: "Story Script", sans-serif;
+    margin-top: 10px;
+    border: none;
+    text-align: center;
+    font-size: 15px;
+    display: flex;
+}
+/* fim do body do site */
 
 
 
