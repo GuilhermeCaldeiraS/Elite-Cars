@@ -49,89 +49,15 @@ font-size: 80px;
 /* começo da section 01 */
 
 
-
-.button-01 {
- width: 150px;
-padding: 7px;
-font-family: "Story Script", sans-serif;
-background-color: #f4f4f2;
-border: none;
-font-weight: 800;
-text-decoration: none;
-text-align: center;
-color: black;
-}
-
-
-
-/* fim das tabelas */
-
-
-
-@import url('https://fonts.googleapis.com/css2?family=Story+Script&display=swap');
-
-* {
-    margin: 0;
-    padding: 0;
-}
-
-
-/* personalização do header da tela de cadastro */
-.header {
-    background-color: #243a69;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    font-family: "Story Script", sans-serif;
-    padding: 20px;
-    color: white;
-}
-
-/* personalização do nome principal */
-.txtheader {
-    font-size: 80px;
-}
-
-
-/* personalização da imgaem do header */
-.img-footer {
-    width: 250px;
-}
-
-/* listas */
-.div-li {
-    list-style: none;
-}
-
-.div-li {
-    display: flex;
-    gap: 15px;
-    font-size: 20px;
-    text-transform: uppercase;
-    font-weight: 600;
-}
-
-.div-li a {
-    text-decoration: none;
-    color: black;
-}
-
-/* FIM DO CABEÇALHO */
-
-
-
-
-
-
-/* Personalização do Body/Corpo do Site */
-
 .tabelas {
     background-color: #f4f4f2;
     border-radius: 10px;
     font-family: "Story Script", sans-serif;
-    border: none;
+   
 }
 
+
+/* fim das tabelas */
 
 
 /* inicio da personalização do footer */
