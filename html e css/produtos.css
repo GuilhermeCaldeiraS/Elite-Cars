@@ -49,11 +49,17 @@ font-size: 80px;
 /* começo da section 01 */
 
 
+.section01 {
+    padding: 50px;
+    background-color: #191013;
+}
+
+
 .tabelas {
     background-color: #f4f4f2;
     border-radius: 10px;
     font-family: "Story Script", sans-serif;
-   
+
 }
 
 
