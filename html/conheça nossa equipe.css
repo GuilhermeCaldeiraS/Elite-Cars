@@ -1,10 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Story+Script&display=swap');
 
 * {
+    /*estilização UNIVERSAL*/
     margin: 0;
+    /*removendo os espaçamentos laterais e superiores*/
     padding: 0;
+    /*desabilitando preenchimento aplicado por padrão*/
+    scroll-behavior: smooth;
+    /*trasição univresal no scrool de rolagem*/
+    list-style: none;
+    /*removendo estilização de lista UNIVERSAL*/
 }
-
 /* estilização do header */
 
 .header {
@@ -135,6 +141,11 @@ width: 10x;
     color: white;
 }
 
-.iframe {
-    margin-left: 900px;
+.caixa-iframe {
+    margin-left: 500px;
+}
+
+.iframe-01 {
+    width: 260px;
+    height: 260px;
 }

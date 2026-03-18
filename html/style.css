@@ -1,8 +1,31 @@
 @import url('https://fonts.googleapis.com/css2?family=Story+Script&display=swap');
 
 * {
+    /*estilização UNIVERSAL*/
     margin: 0;
+    /*removendo os espaçamentos laterais e superiores*/
     padding: 0;
+    /*desabilitando preenchimento aplicado por padrão*/
+    scroll-behavior: smooth;
+    /*trasição univresal no scrool de rolagem*/
+    list-style: none;
+    /*removendo estilização de lista UNIVERSAL*/
+}
+
+
+.whatsapp img {
+    width: 50px;
+}
+
+.whatsapp { /*div que guarda o icon whatsapp*/
+    position: fixed; /*posicionamento fixo*/
+    right: 10px; /*posicionado á direita (25px)*/
+    bottom: 220px; /*posicionando á 25px do bottom*/
+}
+
+.whatsapp img:hover{
+width: 60px;
+transition: 0.8s;
 }
 
 /* estilização do header */
@@ -15,11 +38,15 @@
     font-family: "Story Script", sans-serif;
     padding: 40px;
     color: #d4cdc5;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 1; /*controla a sobreposição dos itens*/
 }
 
- .txtheader {
-font-size: 80px;
- }
+.txtheader {
+    font-size: 80px;
+}
 
 
 .img-footer {
@@ -42,6 +69,12 @@ font-size: 80px;
     text-decoration: none;
     color: black;
 }
+
+.div-li a:hover {
+transition: 0.5s;
+    color: white;
+}
+
 /* FIM DO CABEÇALHO */
 
 
@@ -60,12 +93,20 @@ font-size: 80px;
     width: 400px;
     border-radius: 10px;
     margin-left: 20px;
+    box-shadow: 10px 10px 25px #243a69;
+    transition: 0.8s;
 }
+
+.section-01-img:hover {
+    box-shadow: 15px 15px 35px #243a69;
+}
+
 
 span {
     color: white;
     font-family: "Story Script", sans-serif;
 }
+
 .section-01 p {
     font-family: "Story Script", sans-serif;
     font-size: 30px;
@@ -73,16 +114,25 @@ span {
 }
 
 .button-01 {
+    font-size: 16px;
     margin-top: 15px;
     width: 150px;
-padding: 7px;
-font-family: "Story Script", sans-serif;
-background-color: #f4f4f2;
-border: none;
-font-weight: 800;
-text-decoration: none;
-text-align: center;
-color: black;
+    padding: 5px;
+    font-family: "Story Script", sans-serif;
+    background-color: #f4f4f2;
+    border: none;
+    font-weight: 800;
+    text-decoration: none;
+    text-align: center;
+    color: black;
+    border-radius: 15px;
+    margin-left: 350px;
+    margin-top: 35px;
+}
+
+.button-01:hover {
+    background-color: #243a69;
+    transition: 0.5s;
 }
 
 .ancora-01 {
@@ -107,10 +157,10 @@ color: black;
     gap: 20px;
 }
 
-.logo-section02{
+.logo-section02 {
     width: 450px;
     display: flex;
-  
+
 }
 
 .section-02-p {
@@ -122,27 +172,36 @@ color: black;
 
 .section-03 {
     background-image: url(../imagens/red-mitsubishi-lancer-riding-4bufjias21qztppr.jpg);
-   padding: 200px;
-   background-position: center;
-   background-repeat: no-repeat;
-   background-attachment: fixed;
-   background-size: cover;
-   display: flex;
-align-items: center;
-justify-content: center;
+    padding: 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
+
+
 .button-section03 {
-width: 150px;
-padding: 7px;
-font-family: "Story Script", sans-serif;
-background-color: #f4f4f2;
-border: none;
-font-weight: 800;
-text-decoration: none;
-text-align: center;
-color: black;
+    width: 150px;
+    padding: 7px;
+    font-family: "Story Script", sans-serif;
+    background-color: #f4f4f2;
+    border: none;
+    font-weight: 800;
+    text-decoration: none;
+    text-align: center;
+    color: black;
+    border-radius: 15px;
 }
+
+.button-section03:hover {
+    background-color: #243a69;
+    transition: 0.5s;
+}
+
 /* fim da section 3 */
 
 
@@ -161,28 +220,41 @@ color: black;
     color: black;
 }
 
-.fa-solid , .fa-star-half {
-margin-top: 10px;
-margin-bottom: 10px;
-font-size: 30px;
+.fa-solid,
+.fa-star-half {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 30px;
 }
 
 .div-04 {
-background-color: #d4cdc5;
-height: 350px;
-width: 350px;
-border-radius: 10px;
+    background-color: #d4cdc5;
+    height: 350px;
+    width: 350px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 20px black;
+    transition: 0.8s;
 }
 
+.div-04:hover {
+    box-shadow: 12px 12px 25px white;
+}
 
 
 .gif-04 {
     background-image: url(../imagens/Art\ Design\ GIF\ by\ dualvoidanima.gif);
     padding: 200px;
-background-size: cover;
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     border-radius: 10px;
+    box-shadow: 10px 10px 20px black;
+    transition: 0.8s;
+}
+
+.gif-04:hover {
+    box-shadow: 15px 15px 25px white;
+    transition: 0.8s;
 }
 
 /* fim da section 4 */
@@ -193,24 +265,31 @@ footer {
     align-items: center;
     justify-content: space-evenly;
     font-family: "Story Script", sans-serif;
-    padding: 80px;
+    padding: 15px;
     flex-direction: column;
     text-transform: uppercase;
     font-size: 20px;
 }
 
-.footer-p{
+.footer-p {
     color: white;
 }
 
 .footer-img {
-width: 10x;
+    width: 10x;
 }
 
-.fa-whatsapp, .fa-github , .fa-instagram {
+.fa-whatsapp,
+.fa-github,
+.fa-instagram {
     color: white;
 }
 
-.iframe {
-    margin-left: 900px;
+.caixa-iframe {
+    margin-left: 500px;
+}
+
+.iframe-01 {
+    width: 260px;
+    height: 260px;
 }
